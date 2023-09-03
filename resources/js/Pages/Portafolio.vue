@@ -102,6 +102,72 @@ defineProps({
             </div>
         </card>
     </div>
+
+
+
+
+
+<!-- component -->
+<div class="h-screen flex items-center justify-center bg-amber-50">
+
+<div class="grid grid-cols-6 gap-x-4 gap-y-1 max-w-2xl">
+
+  <!-- Title -->
+  <div class="col-span-full mb-3">
+    <p class="text-xl text-gray-800 font-bold">HABILIDADES DESTACADAS</p>
+  </div>
+
+  <!-- Card 1 -->
+  <div class="col-span-2">
+    <a href="">
+      <img src="https://www.svgrepo.com/show/452192/docker.svg" class="rounded-xl" />
+    </a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col-span-2">
+    <a href="">
+      <img src="https://www.svgrepo.com/show/452210/git.svg" class="rounded-xl" />
+    </a>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col-span-2">
+    <a href="">
+      <img src="https://www.svgrepo.com/show/353985/laravel.svg" class="rounded-xl" />
+    </a>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="col-span-2">
+    <a href="">
+      <img src="https://www.svgrepo.com/show/452184/csharp.svg" class="rounded-xl" />
+    </a>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="col-span-2">
+    <a href="">
+      <img src="https://www.svgrepo.com/show/448236/linux.svg" class="rounded-xl" />
+    </a>
+  </div>
+
+   <!-- Card 5 -->
+   <div class="col-span-2">
+    <a href="">
+      <img src="https://www.svgrepo.com/show/530439/api-interface.svg" class="rounded-xl" />
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+
+ 
+        
+
+    
 </template>
 
 <style>
