@@ -24,6 +24,11 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/SobreMi', function () {
+    return Inertia::render('Portafolio');
+});
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
