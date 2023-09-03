@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title inertia>{{ config('app.name', 'Laravel') }}</title>
+        <title>YNV</title>
+	<link href="https://secure.gravatar.com/avatar/307f127a06b20c136e863f585a41f548?s=800&d=identicon" rel="shortcut icon">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
