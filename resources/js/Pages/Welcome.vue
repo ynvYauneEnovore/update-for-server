@@ -13,7 +13,7 @@ defineProps({
     <Head title="Hi" />
 
     <div
-        class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white"
+        class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-950 selection:bg-red-500 selection:text-white"
     >
         <div
             v-if="canLogin"
@@ -42,7 +42,7 @@ defineProps({
             </template>
         </div>
         <div
-            class="bg-gradient-to-br from-indigo-900 to-green-900 min-h-screen overflow-auto"
+            class="bg-gradient-to-br from-indigo-900 to-black min-h-screen overflow-auto"
         >
             <div class="container max-w-5xl mx-auto px-4">
                 <div class="w-4/5">
@@ -194,7 +194,7 @@ defineProps({
                 class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44"
             >
                 <button
-                    class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-green-500 text-lg font-bold text-white"
+                    class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white"
                     onclick="window.location.href = 'SobreMi';"
                 >
                     About me
