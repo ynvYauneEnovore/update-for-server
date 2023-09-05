@@ -64,7 +64,7 @@ I'm Yovan, a passionate Full Stack developer with a strong focus on backend deve
                         font-size="40"
                         fill="white"
                     >
-                        Yovan Ramón
+                        Yovan
                     </text>
                 </svg>
 

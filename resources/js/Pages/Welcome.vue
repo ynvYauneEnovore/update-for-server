@@ -15,6 +15,7 @@ defineProps({
     <div
         class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-950 selection:bg-red-500 selection:text-white"
     >
+    
         <div
             v-if="canLogin"
             class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"
@@ -44,9 +45,9 @@ defineProps({
         <div
             class="bg-gradient-to-br from-indigo-900 to-black min-h-screen overflow-auto"
         >
-            <div class="container max-w-5xl mx-auto px-4">
+            <div class="container max-w-5xl mx-auto px-14">
                 <div class="w-4/5">
-                    <h1 class="mt-32 text-white text-6xl font-bold">
+                    <h1 class="mt-28 text-white text-6xl font-bold">
                         The fastest, most secure dev environment <br /><span
                             class="text-blue-400"
                             >on the planet.</span
@@ -170,14 +171,14 @@ defineProps({
                 <a href="#" class="relative block">
                     <img
                         alt="profil"
-                        src="https://secure.gravatar.com/avatar/307f127a06b20c136e863f585a41f548?s=800&d=identicon"
+                        src="/img/2.png"
                         class="mx-auto object-cover rounded-full h-40 w-40"
                     />
                 </a>
             </div>
             <div class="text-center">
                 <p class="text-2xl text-gray-800 dark:text-white">
-                    Yovan Ramón
+                    Yovan
                 </p>
 
                 <p class="text-xl font-light text-gray-500 dark:text-gray-200">
@@ -197,11 +198,16 @@ defineProps({
                     class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white"
                     onclick="window.location.href = 'SobreMi';"
                 >
+                  <span class="loading loading-spinner"></span>
+
                     About me
                     <div
                         class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"
                     ></div>
                 </button>
+
+
+                
             </div>
             <div
                 class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44"
