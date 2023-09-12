@@ -28,6 +28,10 @@ Route::get('/SobreMi', function () {
     return Inertia::render('Portafolio');
 });
 
+Route::get('/Bolivia', function () {
+    return Inertia::render('Himnos');
+});
+
 
 Route::middleware([
     'auth:sanctum',
