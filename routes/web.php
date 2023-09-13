@@ -32,6 +32,10 @@ Route::get('/Bolivia', function () {
     return Inertia::render('Himnos');
 });
 
+Route::get('/Laravel', function () {
+    return Inertia::render('Laravel');
+});
+
 
 Route::middleware([
     'auth:sanctum',

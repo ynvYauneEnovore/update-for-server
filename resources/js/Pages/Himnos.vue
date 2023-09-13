@@ -35,7 +35,7 @@ defineProps({
         <!-- Logo -->
         <a class="mb-6 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
           href="https://yovanenovore.tech">
-          <img src="https://raw.githubusercontent.com/ynvYauneEnovore/personal-port/main/public/img/ynv.png"
+          <img src="img/ynv.png"
             style="height: 50px" alt="TE Logo" loading="lazy" />
         </a>
         <!-- Left navigation links -->
