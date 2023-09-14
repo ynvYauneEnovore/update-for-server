@@ -21,110 +21,12 @@ defineProps({
             <div class="flex items-center md:order-2">
                 <button type="button" data-dropdown-toggle="language-dropdown-menu"
                     class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
-                    <img src="https://www.svgrepo.com/show/405427/flag-for-flag-bolivia.svg" class="rounded-full" style="width: 25px;" />
+                    <img src="https://www.svgrepo.com/show/405427/flag-for-flag-bolivia.svg" class="rounded-full"
+                        style="width: 25px;" />
                     &nbsp; Bolivia (BO)
                 </button>
-                <!-- Dropdown -->
-                <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700"
-                    id="language-dropdown-menu">
-                    <ul class="py-2 font-medium" role="none">
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                                role="menuitem">
-                                <div class="inline-flex items-center">
-                                    <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full mr-2"
-                                        xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512">
-                                        <g fill-rule="evenodd">
-                                            <g stroke-width="1pt">
-                                                <path fill="#bd3d44"
-                                                    d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z"
-                                                    transform="scale(3.9385)" />
-                                                <path fill="#fff"
-                                                    d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z"
-                                                    transform="scale(3.9385)" />
-                                            </g>
-                                            <path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)" />
-                                            <path fill="#fff"
-                                                d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z"
-                                                transform="scale(3.9385)" />
-                                        </g>
-                                    </svg>
-                                    Englisasdsah (US)
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                                role="menuitem">
-                                <div class="inline-flex items-center">
-                                    <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512">
-                                        <path fill="#ffce00" d="M0 341.3h512V512H0z" />
-                                        <path d="M0 0h512v170.7H0z" />
-                                        <path fill="#d00" d="M0 170.7h512v170.6H0z" />
-                                    </svg>
-                                    Deutsch
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                                role="menuitem">
-                                <div class="inline-flex items-center">
-                                    <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512">
-                                        <g fill-rule="evenodd" stroke-width="1pt">
-                                            <path fill="#fff" d="M0 0h512v512H0z" />
-                                            <path fill="#009246" d="M0 0h170.7v512H0z" />
-                                            <path fill="#ce2b37" d="M341.3 0H512v512H341.3z" />
-                                        </g>
-                                    </svg>
-                                    Italiano
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
-                                role="menuitem">
-                                <div class="inline-flex items-center">
-                                    <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        id="flag-icon-css-cn" viewBox="0 0 512 512">
-                                        <defs>
-                                            <path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z" />
-                                        </defs>
-                                        <path fill="#de2910" d="M0 0h512v512H0z" />
-                                        <use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)"
-                                            xlink:href="#a" />
-                                        <use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)"
-                                            xlink:href="#a" />
-                                        <use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)"
-                                            xlink:href="#a" />
-                                        <use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)"
-                                            xlink:href="#a" />
-                                        <use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)"
-                                            xlink:href="#a" />
-                                    </svg>
-                                    中文 (繁體)
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <button data-collapse-toggle="navbar-language" type="button"
-                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-language" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 1h15M1 7h15M1 13h15" />
-                    </svg>
-                </button>
+                
+               
                 <!-- <div v-if="canLogin">
             <Link v-if="$page.props.auth.user" :href="route('dashboard')"
                 class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
@@ -154,7 +56,8 @@ defineProps({
                     </li>
                     <li>
                         <a href="/SobreMi"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acerca de</a>
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acerca
+                            de</a>
                     </li>
                     <li>
                         <a href="#"
@@ -174,9 +77,9 @@ defineProps({
     </nav>
 
     <div
-        class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-950 selection:bg-red-500 selection:text-white">
+        class="relative sm:flex sm:items-center bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-950 selection:bg-red-500 selection:text-white">
 
-        <div class="to-black min-h-screen overflow-auto">
+        <div class="to-black overflow-auto">
 
             <div class="container max-w-5xl mx-auto px-14">
                 <div class="w-4/5">
@@ -184,7 +87,7 @@ defineProps({
                         Desarrollo Web <br /><span class="text-blue-400">y Creatividad en Acción.</span>
                     </h1>
                 </div>
-                 <img src="/img/ynv.png" class="mr-3 mt-5" alt="Flowbite Logo" style="width: 150px;" />
+                <img src="/img/ynv.png" class="mr-3 mt-5" alt="Flowbite Logo" style="width: 150px;" />
 
                 <div class="hidden sm:block opacity-30 z-0">
                     <div class="shadow-2xl w-96 h-96 rounded-full -mt-72"></div>
@@ -192,7 +95,7 @@ defineProps({
                     <div class="shadow-xl w-80 h-80 rounded-full ml-8 -mt-96"></div>
                 </div>
                 <div class="text-white relative">
-   
+
                     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 sm:gap-5 uppercase">
                         <div
                             class="group flex items-center bg-indigo-900 bg-opacity-400 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
@@ -260,73 +163,77 @@ defineProps({
             </div>
         </div>
 
-    <div class="p-4">
-        <!-- <div class="mb-4 text-center opacity-90">
+        <div class="p-1">
+            <!-- <div class="mb-4 text-center opacity-90">
             <a href="#" class="relative block">
                 <img alt="profil" src="/img/ynv.png" class="mx-auto object-cover h-40 w-40" />
             </a>
         </div> -->
-        <div class="text-center">
-            <p class="text-2xl text-gray-800 dark:text-white">
-                Yovan Enovore
-            </p>
+            <div class="text-center">
+                <p class="text-2xl text-gray-800 dark:text-white">
+                    Yovan Enovore
+                </p>
 
-            <p class="text-xl font-light text-gray-500 dark:text-gray-200">
-                Full Stack Developer
-            </p>
-            <p class="max-w-xs py-4 font-light text-gray-500 text-md dark:text-gray-400">
-                Creando soluciones avanzadas y eficientes para impulsar el progreso tecnológico.
-            </p>
+                <p class="text-xl font-light text-gray-500 dark:text-gray-200">
+                    Full Stack Developer
+                </p>
+                <p class="max-w-xs py-4 font-light text-gray-500 text-md dark:text-gray-400">
+                    Creando soluciones avanzadas y eficientes para impulsar el progreso tecnológico.
+                </p>
+            </div>
+            <div class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
+                <button
+                    class="bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none"
+                    onclick="window.location.href = 'SobreMi';">
+                    Acerca de mí
+                </button>
+
+
+
+
+            </div>
+            <div class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
+                <a href="https://www.facebook.com/ynvyvn/">
+                    <svg width="30" height="30" fill="currentColor"
+                        class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+                        viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/ramonenovore">
+                    <svg width="30" height="30" fill="currentColor"
+                        class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+                        viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://github.com/ynvYauneEnovore">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+                        viewBox="0 0 1792 1792">
+                        <path
+                            d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/ynv-yovanramonyauneenovore/">
+                    <svg width="30" height="30" fill="currentColor"
+                        class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
+                        viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
         </div>
-        <div class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
-            <button class="bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none" onclick="window.location.href = 'SobreMi';">
-  Acerca de mí
-</button>
-
-
-
-
-        </div>
-        <div class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
-            <a href="https://www.facebook.com/ynvyvn/">
-                <svg width="30" height="30" fill="currentColor"
-                    class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
-                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z">
-                    </path>
-                </svg>
-            </a>
-            <a href="https://twitter.com/ramonenovore">
-                <svg width="30" height="30" fill="currentColor"
-                    class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
-                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z">
-                    </path>
-                </svg>
-            </a>
-            <a href="https://github.com/ynvYauneEnovore">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
-                    viewBox="0 0 1792 1792">
-                    <path
-                        d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z">
-                    </path>
-                </svg>
-            </a>
-            <a href="https://www.linkedin.com/in/ynv-yovanramonyauneenovore/">
-                <svg width="30" height="30" fill="currentColor"
-                    class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
-                    viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z">
-                    </path>
-                </svg>
-            </a>
-        </div>
+        
     </div>
-</div>
+
 
 </template>
 
