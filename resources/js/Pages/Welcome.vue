@@ -192,7 +192,13 @@ defineProps({
 
 
             </div>
-            <div class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
+          
+        </div>
+        
+    </div>
+                        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+
+                            <div class="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
                 <a href="https://www.facebook.com/ynvyvn/">
                     <svg width="30" height="30" fill="currentColor"
                         class="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
@@ -230,13 +236,6 @@ defineProps({
                     </svg>
                 </a>
             </div>
-        </div>
-        
-    </div>
-
-                        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-
-
                             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a
                                     href="https://yovanenovore.tech/" class="hover:underline ">YovanEnovore ™</a> <span
